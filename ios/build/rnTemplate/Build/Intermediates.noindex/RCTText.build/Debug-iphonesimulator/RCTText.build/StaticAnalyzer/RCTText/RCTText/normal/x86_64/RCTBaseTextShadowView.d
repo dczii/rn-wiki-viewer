@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.m \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/yoga/YGValue.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
+  /Users/danilozabalaii/Zii/rn-wiki/ios/build/rnTemplate/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/RawText/RCTRawTextShadowView.h \
+  /Users/danilozabalaii/Zii/rn-wiki/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h
