@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, StyleSheet } from 'react-native';
+import { View, ScrollView, TextInput, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
+import _ from 'lodash';
 
 import { getData } from '../../redux/action'
+import List from '../../components/List'
 
 function Home(props) {
 	let [searchField, handleSearchField] = useState(false)
@@ -13,9 +15,14 @@ function Home(props) {
 		let val = searchValue
 		handlesearchValue(param)
 		props.getData(param)
-  }
+	}
+	
+	let searchView = <ScrollView style={styles.listStyle}>
+		{_.map(props.searchData.data, (data, idx) => {
+			return <List data={data} key={idx} />
+		})}
+	</ScrollView>
 
-	console.log(props.searchData.data)
 	return(
 		<View style={styles.container}>
 			<TextInput
@@ -24,6 +31,8 @@ function Home(props) {
 				value={searchValue}
 				onChangeText={e => onSearch(e)}
 			/>
+
+			{searchView}
 		</View>
 	);
 }
@@ -40,6 +49,12 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		borderBottomColor: 'rgba(0,0,0,0.2)',
 		padding: 10
+	},
+	listStyle: {
+		width: '100%',
+		marginTop: 10,
+		backgroundColor: '#AEAEAE',
+		paddingVertical: 10,
 	}
 })
  
